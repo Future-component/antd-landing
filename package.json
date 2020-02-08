@@ -1,6 +1,6 @@
 {
   "name": "antd-landing",
-  "version": "1.0.25",
+  "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
