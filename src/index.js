@@ -1,5 +1,4 @@
 // import * as antC from 'antd'
-import ButtonC from './components/Button'
 import IconC from './components/Icon'
 import Nav0C from './components/Nav0'
 import Nav2C from './components/Nav2'
@@ -76,4 +75,3 @@ export const Teams3 = Teams3C
 export const Teams4 = Teams4C
 
 export const Icon = IconC
-export const Button = ButtonC
