@@ -1,0 +1,34 @@
+@content14: content14;
+
+.@{content14}-wrapper {
+  height: 300px;
+  background-size: cover;
+  background-size: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  &.home-page-wrapper {
+    .title-wrapper {
+      margin-bottom: 0px !important;
+    }
+  }
+
+  .img-box {
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    background-color: #F5FAFF;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .@{content14}-wrapper {
+    padding-bottom: 0;
+    height: 16vh;
+
+    .img-box {
+      height: 16vh;
+    }
+  }
+}

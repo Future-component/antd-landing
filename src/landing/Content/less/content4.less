@@ -1,0 +1,53 @@
+@content4: content4;
+
+.@{content4}-wrapper {
+  min-height: 500px;
+
+  .@{content4} {
+    height: 100%;
+    overflow: hidden;
+
+    &-img {
+      max-width: 800px;
+      
+      img {
+        width: 100%;
+      }
+    }
+    &-video {
+      border-radius: 4px;
+      overflow: hidden;
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+
+      video {
+        display: block;
+        margin: auto;
+        min-height: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content4}-wrapper {
+    min-height: 350px;
+
+    .@{content4} {
+      overflow: hidden;
+      width: 90%;
+      margin: auto;
+
+      &-video {
+        top: 15%;
+        background-size: cover;
+
+        video {
+          min-height: 150px!important;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@content24: content24;
+
+.@{content24}-wrapper {
+  min-height: 610px;
+
+  .@{content24} {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+
+    &-text {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: left;
+      background: #f7f8f8;
+      padding: 20px 50px;
+      border-left: 1px solid #ffaa0e;
+      border-top: 1px solid #ffaa0e;
+      box-shadow: 2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(255, 170, 14, 1);
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content24}-wrapper {
+    min-height: 350px;
+
+    .@{content24} {
+      overflow: hidden;
+      width: 100%;
+      margin: auto;
+
+    &-text {
+      padding: 15px 10px;
+    }
+
+    }
+  }
+}

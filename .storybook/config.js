@@ -42,7 +42,7 @@ addParameters({
      * where to show the addon panel
      * @type {('bottom'|'right')}
      */
-    panelPosition: 'bottom',
+    panelPosition: 'right',
     /**
      * regex for finding the hierarchy separator
      * @example:
@@ -75,7 +75,7 @@ addParameters({
      * show/hide tool bar
      * @type {Boolean}
      */
-    isToolshown: true,
+    isToolshown: false,
     /**
      * theme storybook, see link below
      */
@@ -89,6 +89,6 @@ addDecorator(withInfo)
 
 // 组件列表
 // storiesOf('???', module)
-configure(loadStories, module);
+// configure(loadStories, module);
 // configure(loadMaterials, module)
 configure(loadComponentStories, module)

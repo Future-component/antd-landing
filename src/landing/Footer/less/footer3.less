@@ -1,0 +1,147 @@
+.footer3-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  position: relative;
+  min-height: 253px;
+  color: @template-footer-text-color;
+
+  .footer3 {
+    .ant-row {
+      position: relative;
+    }
+
+    .block {
+      .logoImg {
+        max-width: 100px;
+        position: relative;
+      }
+
+      .slogan {
+        font-size: 12px;
+        margin-top: 10px;
+      }
+
+      >div {
+        line-height: 24px;
+
+        a {
+          color: @template-footer-text-color;
+          margin-right: 50px;
+          margin-bottom: 32px;
+          font-size: 14px;
+          font-weight: 400;
+          color: rgba(255, 255, 255, 0.9);
+          line-height: 20px;
+
+          &:hover {
+            color: @primary-color;
+          }
+        }
+      }
+    }
+
+    .block1 {
+      min-height: 52px;
+    }
+
+    .block2 {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 30px;
+    }
+
+    .block3, .block4 {
+      margin-top: -50px;
+    }
+    .block3{
+      margin-right: 30px;
+    }
+
+  }
+
+  .copyright-wrapper {
+    width: 100%;
+    border-top: 1px solid fade(@line-color, 10);
+    background: rgba(0, 0, 0, 0.9);
+
+    .home-page {
+      padding: 0 24px;
+      overflow: hidden;
+    }
+
+    .copyright {
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer3-wrapper {
+    .footer3 {
+      height: initial;
+      .ant-col {
+        padding: 0;
+      }
+  
+      >ul {
+        width: 90%;
+        margin: 20px auto 0;
+        padding: 10px 0;
+  
+        >li {
+          width: 100%;
+  
+          h2 {
+            margin-bottom: 10px;
+          }
+  
+          li {
+            display: inline-block;
+            margin-right: 10px;
+          }
+        }
+      }
+  
+      .copyright {
+        span {
+          width: 90%;
+        }
+      }
+  
+      .block {
+        >div {
+          a {
+            margin-right: 12px;
+            font-size: 12px;
+          }
+        }
+      }
+  
+      .block1{
+        margin-bottom: 20px;
+        min-height: 20px;
+      }
+  
+      .block2{
+        margin-bottom: 20px;
+      }
+      .block3, .block4{
+        margin: 10px auto 0px;
+  
+        .logoImg{
+          margin: 0 auto;
+          max-width: 120px;
+        }
+        .slogan{
+          width: 100%;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+  
+    }
+  }
+}

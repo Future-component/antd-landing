@@ -1,0 +1,133 @@
+@content22: content22;
+
+.@{content22}-wrapper {
+  min-height: 446px;
+  overflow: hidden;
+
+  .@{content22} {
+    overflow: hidden;
+    height: 100%;
+
+    >.title-wrapper {
+      margin: 0 auto 48px;
+    }
+
+    .block-wrapper {
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+      top: 25%;
+      padding: 20px 0;
+
+      .block {
+        width: 600px;
+        height: 220px;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0px 10px 20px 0px rgba(219, 232, 245, 1);
+        border-radius: 6px;
+
+        &.queue-anim-leaving {
+          position: relative !important;
+        }
+
+        .@{content22}-icon {
+          float: left;
+          width: 70px;
+          height: 70px;
+          margin: 48px 0 0 48px;
+        }
+
+
+        .@{content22}-title {
+          height: 40px;
+          font-size: 28px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.9);
+          line-height: 40px;
+          margin: 62px 0 20px 0;
+        }
+
+        .@{content22}-content {
+          height: 44px;
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(0, 0, 0, 0.5);
+          line-height: 22px;
+        }
+
+        .right-text {
+          display: inline-block;
+          margin-left: 33px;
+          max-width: 370px;
+        }
+
+      }
+
+      .block0 {
+        margin-bottom: 50px;
+        margin-top: 200px;
+        float: right;
+      }
+
+      .@{content22}-picture {
+        position: absolute;
+        width: 334px;
+        height: 479px;
+        top: 0;
+        left: 237px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{content22}-wrapper {
+    .@{content22} {
+      padding: 64px 10px !important;
+
+    }
+
+    min-height: 850px;
+
+    .block {
+      max-width: 100% !important;
+      min-height: 254px !important;
+    }
+
+    .@{content22}-icon {
+      float: none !important;
+      margin: 0 auto !important;
+      padding-top: 13px!important;
+    }
+
+    .block0 {
+      margin-bottom: 30px !important;
+      margin-top: 20px !important;
+    }
+
+    .@{content22}-title {
+      text-align: center;
+      margin: 20px 0 10px 0!important;
+    }
+
+    .@{content22}-picture {
+      display: none !important;
+    }
+
+    .right-text {
+      display: block !important;
+      margin-left: 0px !important;
+      max-width: 100% !important;
+    }
+
+    .@{content22}-content {
+      padding: 0 10px;
+      height: 70px !important;
+    }
+
+  }
+}

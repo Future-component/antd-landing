@@ -1,0 +1,111 @@
+.affix-module {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 1000;
+  
+    .ant-affix {
+      right: 0;
+    }
+  
+    .ant-back-top {
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 12px;
+      width: 64px;
+      height: 64px;
+      color: #666;
+      text-align: center;
+      background: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2);
+      cursor: pointer;
+  
+      .ant-back-top-content {
+        width: 64px;
+        height: 64px;
+        border-radius: 0;
+      }
+  
+      .ant-back-top-icon {
+        margin: 24px auto;
+      }
+    }
+  
+    .affix-item {
+      position: relative;
+      font-size: 12px;
+      width: 64px;
+      height: 66px;
+      color: rgba(0,0,0,0.9);
+      padding-top: 10px;
+      text-align: center;
+      background: #fff;
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2);
+      cursor: pointer;
+  
+      a {
+        color: rgba(0,0,0,0.9);
+      }
+  
+      .ant-tooltip {
+        transition: all 0.3s ease-in-out;
+        top: 50%;
+        left: -40px;
+        transform: scale(0) translateY(-50%);
+  
+        .ant-tooltip-inner {
+          padding: 5px 0;
+          text-align: center;
+        }
+      }
+  
+      .ant-tooltip-placement-left {
+        width: 210px;
+  
+        img {
+          width: 160px;
+        }
+      }
+  
+      img {
+        transform: scale(0.7);
+        display: block;
+        margin: 0 auto;
+      }
+  
+      &:hover {
+        .ant-tooltip {
+          left: -210px;
+          transform: scale(1) translateY(-50%);
+        }
+  
+        img {
+          transform: scale(0.8);
+        }
+      }
+    }
+  
+    .affix-item-wx {
+      .ant-tooltip-placement-left {
+        .ant-tooltip-arrow {
+          border-left-color: rgb(1, 203, 95);
+        }
+        .ant-tooltip-inner {
+          background: rgb(1, 203, 95);
+        }
+      }
+    }
+  
+    .affix-item-hotline {
+      .ant-tooltip-placement-left {
+        .ant-tooltip-arrow {
+          border-left-color: @primary-color;
+        }
+        .ant-tooltip-inner {
+          background: @primary-color;
+        }
+      }
+    }
+  }
+  

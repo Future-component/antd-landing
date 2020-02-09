@@ -1,0 +1,103 @@
+@carousel2: carousel2;
+
+.@{carousel2}-wrapper {
+  min-height: 606px;
+
+  .ant-carousel .slick-dots-bottom {
+    bottom: -12px;
+  }
+  
+  .slick-dots {
+    display: none !important;
+  }
+
+  .@{carousel2} {
+    >p {
+      text-align: center;
+    }
+
+    &-img-wrapper {
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+
+      .block {
+        margin-bottom: 24px;
+
+        .carousel2-block-content {
+          border-radius: 0px !important;
+          display: block;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+
+          &>span {
+            width: 100%;
+            height: 130px;
+            display: block;
+            background: @line-color;
+            background-size: cover;
+            background-position: center;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          & p {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.9);
+            line-height: 20px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+  .col-title {
+    font-size: 22px;
+    margin-bottom: 40px;
+
+    span {
+      display: inline-block;
+      margin-left: 12px;
+      font-size: 14px;
+      color: @primary-color;
+    }
+  }
+}
+
+.carousel2-big-wrapper,
+.cooperation-img-wrapper {
+  min-height: 240px;
+}
+
+.cooperation-img-wrapper {
+  >div {
+    padding: 0 5px;
+    margin-bottom: 12px;
+  }
+
+  .cooperation-img {
+    width: 100%;
+    max-width: 144px;
+    height: 56px;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .@{carousel2}-wrapper {
+    min-height: 480px;
+    overflow: hidden;
+
+    .slick-dots {
+      display: none !important;
+    }
+  }
+}
