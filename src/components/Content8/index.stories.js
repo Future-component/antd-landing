@@ -2,12 +2,12 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions';
 
-import Feature5 from './index'
+import Content8 from './index'
 // import { Button } from 'antd'
 
-export const Feature50DataSource = {
-  wrapper: { className: 'home-page-wrapper content7-wrapper' },
-  page: { className: 'home-page content7' },
+export const Content80DataSource = {
+  wrapper: { className: 'home-page-wrapper content8-wrapper' },
+  page: { className: 'home-page content8' },
   OverPack: {},
   titleWrapper: {
     className: 'title-wrapper',
@@ -20,20 +20,20 @@ export const Feature50DataSource = {
       { name: 'content', children: '基于阿里云计算强大的基础资源' },
     ],
   },
-  tabsWrapper: { className: 'content7-tabs-wrapper' },
+  tabsWrapper: { className: 'content8-tabs-wrapper' },
   block: {
     children: [
       {
         name: 'block0',
         tag: {
-          className: 'content7-tag',
-          text: { children: 'PHONE', className: 'content7-tag-name' },
+          className: 'content8-tag',
+          text: { children: 'PHONE', className: 'content8-tag-name' },
           icon: { children: 'mobile' },
         },
         content: {
-          className: 'content7-content',
+          className: 'content8-content',
           text: {
-            className: 'content7-text',
+            className: 'content8-text',
             md: 14,
             xs: 24,
             children: (
@@ -57,7 +57,7 @@ export const Feature50DataSource = {
             ),
           },
           img: {
-            className: 'content7-img',
+            className: 'content8-img',
             children:
               'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
             md: 10,
@@ -68,14 +68,14 @@ export const Feature50DataSource = {
       {
         name: 'block1',
         tag: {
-          className: 'content7-tag',
+          className: 'content8-tag',
           icon: { children: 'tablet' },
-          text: { className: 'content7-tag-name', children: 'TABLET' },
+          text: { className: 'content8-tag-name', children: 'TABLET' },
         },
         content: {
-          className: 'content7-content',
+          className: 'content8-content',
           text: {
-            className: 'content7-text',
+            className: 'content8-text',
             md: 14,
             xs: 24,
             children: (
@@ -99,7 +99,7 @@ export const Feature50DataSource = {
             ),
           },
           img: {
-            className: 'content7-img',
+            className: 'content8-img',
             md: 10,
             xs: 24,
             children:
@@ -110,18 +110,18 @@ export const Feature50DataSource = {
       {
         name: 'block2',
         tag: {
-          className: 'content7-tag',
-          text: { children: 'DESKTOP', className: 'content7-tag-name' },
+          className: 'content8-tag',
+          text: { children: 'DESKTOP', className: 'content8-tag-name' },
           icon: { children: 'laptop' },
         },
         content: {
-          className: 'content7-content',
+          className: 'content8-content',
           text: {
-            className: 'content7-text',
+            className: 'content8-text',
             md: 14,
             xs: 24,
             children: (
-              <>
+              <div>
                 <span>
                   <h3>技术</h3>
                   <p>
@@ -137,11 +137,11 @@ export const Feature50DataSource = {
                     开放
                   </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
                 </span>
-              </>
+              </div>
             ),
           },
           img: {
-            className: 'content7-img',
+            className: 'content8-img',
             md: 10,
             xs: 24,
             children:
@@ -152,6 +152,6 @@ export const Feature50DataSource = {
     ],
   },
 };
-storiesOf('Feature|Feature5', module)
-  .add('Web', () => <Feature5 dataSource={Feature50DataSource} isMobile={false} />)
-  .add('H5', () => <Feature5 dataSource={Feature50DataSource} isMobile={true} />)
+storiesOf('Content|Content8', module)
+  .add('Web', () => <Content8 dataSource={Content80DataSource} isMobile={false} />)
+  .add('H5', () => <Content8 dataSource={Content80DataSource} isMobile={true} />)

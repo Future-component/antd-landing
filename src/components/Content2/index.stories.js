@@ -2,10 +2,10 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions';
 
-import Feature2 from './index'
+import Content2 from './index'
 // import { Button } from 'antd'
 
-export const Feature20DataSource = {
+export const Content20DataSource = {
   wrapper: { className: 'home-page-wrapper content2-wrapper' },
   OverPack: { className: 'home-page content2', playScale: 0.3 },
   imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
@@ -20,6 +20,6 @@ export const Feature20DataSource = {
       '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
   },
 };
-storiesOf('Feature|Feature2', module)
-  .add('Web', () => <Feature2 dataSource={Feature20DataSource} isMobile={false} />)
-  .add('H5', () => <Feature2 dataSource={Feature20DataSource} isMobile={true} />)
+storiesOf('Content|Content2', module)
+  .add('Web', () => <Content2 dataSource={Content20DataSource} isMobile={false} />)
+  .add('H5', () => <Content2 dataSource={Content20DataSource} isMobile={true} />)

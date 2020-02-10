@@ -2,13 +2,13 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions';
 
-import Feature4 from './index'
+import Content7 from './index'
 // import { Button } from 'antd'
 
-export const Feature40DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  OverPack: { className: 'home-page content6' },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+export const Content70DataSource = {
+  wrapper: { className: 'home-page-wrapper content7-wrapper' },
+  OverPack: { className: 'home-page content7' },
+  textWrapper: { className: 'content7-text', xs: 24, md: 10 },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -26,7 +26,7 @@ export const Feature40DataSource = {
   },
   img: {
     children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
-    className: 'content6-img',
+    className: 'content7-img',
     xs: 24,
     md: 14,
   },
@@ -37,11 +37,11 @@ export const Feature40DataSource = {
         img: {
           children:
             'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          className: 'content6-icon',
+          className: 'content7-icon',
         },
-        title: { className: 'content6-title', children: '技术' },
+        title: { className: 'content7-title', children: '技术' },
         content: {
-          className: 'content6-content',
+          className: 'content7-content',
           children:
             '丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。',
         },
@@ -49,13 +49,13 @@ export const Feature40DataSource = {
       {
         name: 'block1',
         img: {
-          className: 'content6-icon',
+          className: 'content7-icon',
           children:
             'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
         },
-        title: { className: 'content6-title', children: '融合' },
+        title: { className: 'content7-title', children: '融合' },
         content: {
-          className: 'content6-content',
+          className: 'content7-content',
           children:
             '解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。',
         },
@@ -63,13 +63,13 @@ export const Feature40DataSource = {
       {
         name: 'block2',
         img: {
-          className: 'content6-icon',
+          className: 'content7-icon',
           children:
             'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
         },
-        title: { className: 'content6-title', children: '开发' },
+        title: { className: 'content7-title', children: '开发' },
         content: {
-          className: 'content6-content',
+          className: 'content7-content',
           children:
             '符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。',
         },
@@ -77,6 +77,6 @@ export const Feature40DataSource = {
     ],
   },
 };
-storiesOf('Feature|Feature4', module)
-  .add('Web', () => <Feature4 dataSource={Feature40DataSource} isMobile={false} />)
-  .add('H5', () => <Feature4 dataSource={Feature40DataSource} isMobile={true} />)
+storiesOf('Content|Content7', module)
+  .add('Web', () => <Content7 dataSource={Content70DataSource} isMobile={false} />)
+  .add('H5', () => <Content7 dataSource={Content70DataSource} isMobile={true} />)

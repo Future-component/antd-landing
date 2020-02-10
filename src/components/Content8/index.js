@@ -6,7 +6,7 @@ import { getChildrenToRender } from '../../utils/utils';
 
 const TabPane = Tabs.TabPane;
 
-class Content7 extends React.Component {
+class Content8 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -107,4 +107,4 @@ class Content7 extends React.Component {
   }
 }
 
-export default Content7;
+export default Content8;
