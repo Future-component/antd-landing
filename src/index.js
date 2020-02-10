@@ -40,6 +40,10 @@ import Teams1C from './components/Teams1'
 import Teams2C from './components/Teams2'
 import Teams3C from './components/Teams3'
 import Teams4C from './components/Teams4'
+import Footer0C from './components/Footer0'
+import Footer1C from './components/Footer1'
+import Footer2C from './components/Footer2'
+import Affix0C from './components/Affix0'
 
 import './style/index.less'
 
@@ -83,5 +87,9 @@ export const Teams1 = Teams1C
 export const Teams2 = Teams2C
 export const Teams3 = Teams3C
 export const Teams4 = Teams4C
+export const Footer0 = Footer0C
+export const Footer1 = Footer1C
+export const Footer2 = Footer2C
+export const Affix0 = Affix0C
 
 export const Icon = IconC

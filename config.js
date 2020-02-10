@@ -11,6 +11,8 @@ module.exports = {
     'prop-types',
     'classnames',
     'sa-sdk-javascript',
-    'us-common-utils'
+    'us-common-utils',
+    'rc-tween-one',
+    'rc-tween-one',
   ]
 }
