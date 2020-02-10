@@ -10,10 +10,10 @@ class Content6 extends React.PureComponent {
       return (
         <Col key={item.name} {...item}>
           <div {...item.children.wrapper}>
-            <span {...item.children.img}>
-              <img src={item.children.img.children} height="100%" alt="img" />
-            </span>
+            <span style={{ backgroundImage: `url(${item.children.img.children})` }} />
+            <div {...item.children.title}>{item.children.title.children}</div>
             <p {...item.children.content}>{item.children.content.children}</p>
+            <a {...item.children.a}>{item.children.a.children}</a>
           </div>
         </Col>
       );

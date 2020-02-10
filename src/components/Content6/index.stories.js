@@ -35,7 +35,9 @@ export const Content60DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          title: { children: 'Ant Design' },
+          content: { children: '网站，一个全新的互联网营销渠道' },
+          a: { children: '在线联系', href: '#' },
         },
       },
       {
@@ -49,7 +51,9 @@ export const Content60DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          title: { children: 'Ant Design' },
+          content: { children: '网站，一个全新的互联网营销渠道' },
+          a: { children: '在线联系', href: '#' },
         },
       },
       {
@@ -63,7 +67,9 @@ export const Content60DataSource = {
             children:
               'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
           },
-          content: { children: 'Ant Design' },
+          title: { children: 'Ant Design' },
+          content: { children: '网站，一个全新的互联网营销渠道' },
+          a: { children: '在线联系', href: '#' },
         },
       },
       {
@@ -77,7 +83,9 @@ export const Content60DataSource = {
             children:
               'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
           },
-          content: { children: 'Ant Motion' },
+          title: { children: 'Ant Design' },
+          content: { children: '网站，一个全新的互联网营销渠道' },
+          a: { children: '在线联系', href: '#' },
         },
       },
     ],
