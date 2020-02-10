@@ -21,6 +21,8 @@ import Content6C from './components/Content6'
 import Content7C from './components/Content7'
 import Content8C from './components/Content8'
 import Content9C from './components/Content9'
+import Content10C from './components/Content10'
+import Content11C from './components/Content11'
 import Content12C from './components/Content12'
 import Content13C from './components/Content13'
 import Contact0C from './components/Contact0'
@@ -62,6 +64,8 @@ export const Content6 = Content6C
 export const Content7 = Content7C
 export const Content8 = Content8C
 export const Content9 = Content9C
+export const Content10 = Content10C
+export const Content11 = Content11C
 export const Content12 = Content12C
 export const Content13 = Content13C
 export const Contact0 = Contact0C

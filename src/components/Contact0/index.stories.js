@@ -6,7 +6,7 @@ import Contact0 from './index'
 // import { Button } from 'antd'
 
 export const Contact00DataSource = {
-  wrapper: { className: 'home-page-wrapper content10-wrapper' },
+  wrapper: { className: 'home-page-wrapper contact0-wrapper' },
   Content: {
     className: 'icon-wrapper',
     children: {

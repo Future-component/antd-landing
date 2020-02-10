@@ -1,7 +1,7 @@
 import React from 'react';
 import QueueAnim from 'rc-queue-anim';
 
-class Contact0 extends React.PureComponent {
+class Content11 extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -39,16 +39,9 @@ class Contact0 extends React.PureComponent {
           onClick={this.onClick}
           onTouchEnd={this.onClick}
         >
-          <div {...dataSource.Content.children.icon}>
-            <img src={dataSource.Content.children.icon.children} alt="img" />
-          </div>
-          <div {...dataSource.Content.children.iconShadow}>
-            <img
-              src={dataSource.Content.children.iconShadow.children}
-              alt="img"
-            />
-          </div>
+          <div {...dataSource.Content.children.content} />
         </div>
+        {/*
         <QueueAnim type="scale">
           {this.state.showInfo && (
             <div className="map-tip" key="map">
@@ -57,9 +50,10 @@ class Contact0 extends React.PureComponent {
             </div>
           )}
         </QueueAnim>
+        */}
       </div>
     );
   }
 }
 
-export default Contact0;
+export default Content11;
