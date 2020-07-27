@@ -125,5 +125,5 @@ export const Pricing10DataSource = {
 };
 
 storiesOf('Pricing|Pricing1', module)
-  .add('Web', () => <Pricing1 dataSource={Nav00DataSource} isMobile={false} />)
-  .add('H5', () => <Pricing1 dataSource={Nav00DataSource} isMobile={true} />)
+  .add('Web', () => <Pricing1 dataSource={Pricing10DataSource} isMobile={false} />)
+  .add('H5', () => <Pricing1 dataSource={Pricing10DataSource} isMobile={true} />)
